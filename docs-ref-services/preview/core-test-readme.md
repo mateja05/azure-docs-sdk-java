@@ -10,7 +10,7 @@ ms.technology: azure
 ms.devlang: java
 ms.service: core
 ---
-# Azure Core Test shared library for Java - Version 1.8.0-alpha.20211210.5 
+# Azure Core Test shared library for Java - Version 1.8.0-alpha.20211210.7 
 
 
 Library containing core classes used to test Azure SDK client libraries.

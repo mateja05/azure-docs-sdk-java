@@ -10,7 +10,7 @@ ms.technology: azure
 ms.devlang: java
 ms.service: core
 ---
-# Azure Core shared library for Java - Version 1.24.0-alpha.20211210.5 
+# Azure Core shared library for Java - Version 1.24.0-alpha.20211210.7 
 
 
 [![Build Documentation](https://img.shields.io/badge/documentation-published-blue.svg)](https://azure.github.io/azure-sdk-for-java)
