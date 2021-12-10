@@ -10,7 +10,7 @@ ms.technology: azure
 ms.devlang: java
 ms.service: core
 ---
-# Azure Core OkHttp HTTP plugin library for Java - Version 1.8.0-alpha.20211210.2 
+# Azure Core OkHttp HTTP plugin library for Java - Version 1.8.0-alpha.20211210.5 
 
 
 Azure Core OkHttp HTTP client is a plugin for the `azure-core` HTTP client API.
