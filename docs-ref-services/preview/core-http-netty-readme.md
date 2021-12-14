@@ -10,7 +10,7 @@ ms.technology: azure
 ms.devlang: java
 ms.service: core
 ---
-# Azure Core Netty HTTP plugin library for Java - Version 1.12.0-alpha.20211214.1 
+# Azure Core Netty HTTP plugin library for Java - Version 1.12.0-alpha.20211214.2 
 
 
 Azure Core Netty HTTP client is a plugin for the `azure-core` HTTP client API.

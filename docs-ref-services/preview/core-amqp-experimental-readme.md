@@ -10,7 +10,7 @@ ms.technology: azure
 ms.devlang: java
 ms.service: core
 ---
-# Azure Core AMQP Experimental shared library for Java - Version 1.0.0-alpha.20211214.1 
+# Azure Core AMQP Experimental shared library for Java - Version 1.0.0-alpha.20211214.2 
 
 
 [![Build Documentation](https://img.shields.io/badge/documentation-published-blue.svg)](https://azure.github.io/azure-sdk-for-java)
