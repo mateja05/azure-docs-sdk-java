@@ -3,14 +3,14 @@ title: Azure Resource Manager ApiManagement client library for Java
 keywords: Azure, java, SDK, API, azure-resourcemanager-apimanagement, apimanagement
 author: joshfree
 ms.author: joshfree
-ms.date: 12/22/2021
+ms.date: 12/23/2021
 ms.topic: reference
 ms.prod: azure
 ms.technology: azure
 ms.devlang: java
 ms.service: apimanagement
 ---
-# Azure Resource Manager ApiManagement client library for Java - Version 1.0.0-alpha.20211221.1 
+# Azure Resource Manager ApiManagement client library for Java - Version 1.0.0-alpha.20211222.1 
 
 
 Azure Resource Manager ApiManagement client library for Java.
