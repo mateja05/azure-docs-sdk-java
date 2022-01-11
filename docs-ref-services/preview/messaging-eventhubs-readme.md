@@ -10,7 +10,7 @@ ms.technology: azure
 ms.devlang: java
 ms.service: eventhubs
 ---
-# Azure Event Hubs client library for Java - Version 5.11.0-alpha.20220110.2 
+# Azure Event Hubs client library for Java - Version 5.11.0-alpha.20220111.1 
 
 
 Azure Event Hubs is a highly scalable publish-subscribe service that can ingest millions of events per second and stream
