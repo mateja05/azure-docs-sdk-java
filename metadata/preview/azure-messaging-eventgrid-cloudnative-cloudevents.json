@@ -1,0 +1,14 @@
+{
+  "Name": "azure-messaging-eventgrid-cloudnative-cloudevents",
+  "Version": "1.0.0-alpha.20220125.1",
+  "DevVersion": "1.0.0-alpha.20220125.1",
+  "DirectoryPath": "sdk/eventgrid/azure-messaging-eventgrid-cloudnative-cloudevents",
+  "ServiceDirectory": "eventgrid",
+  "ReadMePath": "sdk/eventgrid/azure-messaging-eventgrid-cloudnative-cloudevents/README.md",
+  "ChangeLogPath": "sdk/eventgrid/azure-messaging-eventgrid-cloudnative-cloudevents/CHANGELOG.md",
+  "Group": "com.azure",
+  "SdkType": "client",
+  "IsNewSdk": true,
+  "ArtifactName": "azure-messaging-eventgrid-cloudnative-cloudevents",
+  "ReleaseStatus": "Unreleased"
+}
