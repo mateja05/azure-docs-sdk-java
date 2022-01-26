@@ -1,24 +1,23 @@
 ---
 title: Azure Communication Network Traversal Package client library for Java
 keywords: Azure, java, SDK, API, azure-communication-networktraversal, communication
-author: maggiepint
-ms.author: magpint
-ms.date: 11/18/2021
+author: JianpingChen
+ms.author: JianpingChen
+ms.date: 01/26/2022
 ms.topic: reference
 ms.prod: azure
 ms.technology: azure
 ms.devlang: java
 ms.service: communication
 ---
-
-# Azure Communication Network Traversal Package client library for Java - Version 1.0.0-beta.2 
+# Azure Communication Network Traversal Package client library for Java - Version 1.0.0-alpha.20220126.1 
 
 
 Azure Communication Network Traversal is managing TURN credentials for Azure Communication Services.
 
 It will provide TURN credentials to a user.
 
-[Source code](https://github.com/Azure/azure-sdk-for-java/blob/azure-communication-networktraversal_1.0.0-beta.2/sdk/communication) | [API reference documentation](https://github.com/Azure/azure-sdk-for-java/blob/azure-communication-networktraversal_1.0.0-beta.2/sdk/communication)
+[Source code](https://github.com/Azure/azure-sdk-for-java/blob/master/sdk/communication) | [API reference documentation](https://github.com/Azure/azure-sdk-for-java/blob/master/sdk/communication)
 
 ## Getting started
 
@@ -95,8 +94,7 @@ CommunicationRelayClient communicationRelayClient = new CommunicationRelayClient
 
 ### Getting a new Relay Configuration
 
-<!-- embedme ./src/samples/java/com/azure/communication/networktraversal/ReadmeSamples.java#L124-L135 -->
-```java
+```java readme-sample-getRelayConfigurationWithoutIdentity
 CommunicationRelayClient communicationRelayClient = createCommunicationNetworkTraversalClient();
 CommunicationRelayConfiguration config = communicationRelayClient.getRelayConfiguration();
 
@@ -116,8 +114,7 @@ for (CommunicationIceServer iceS : iceServers) {
 Use the `createUser` function to create a new user from CommunicationIdentityClient
 Use the `getRelayConfiguration` function to get a Relay Configuration
 
-<!-- embedme ./src/samples/java/com/azure/communication/networktraversal/ReadmeSamples.java#L97-L113 -->
-```java
+```java readme-sample-getRelayConfiguration
 CommunicationIdentityClient communicationIdentityClient = createCommunicationIdentityClient();
 
 CommunicationUserIdentifier user = communicationIdentityClient.createUser();
@@ -139,8 +136,7 @@ for (CommunicationIceServer iceS : iceServers) {
 
 ### Getting a new Relay Configuration providing a Route Type
 
-<!-- embedme ./src/samples/java/com/azure/communication/networktraversal/ReadmeSamples.java#L137-L47 -->
-```java
+```java readme-sample-getRelayConfigurationWithRouteType
 CommunicationRelayClient communicationRelayClient = createCommunicationNetworkTraversalClient();
 CommunicationRelayConfiguration config = communicationRelayClient.getRelayConfiguration(RouteType.ANY);
 
