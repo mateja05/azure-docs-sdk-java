@@ -1,0 +1,3 @@
+com.microsoft.azure.cognitiveservices.language.spellcheck
+com.microsoft.azure.cognitiveservices.language.spellcheck.implementation
+com.microsoft.azure.cognitiveservices.language.spellcheck.models
