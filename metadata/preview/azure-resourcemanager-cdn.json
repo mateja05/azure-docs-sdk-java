@@ -1,7 +1,7 @@
 {
   "Name": "azure-resourcemanager-cdn",
-  "Version": "2.13.0-alpha.20220221.5",
-  "DevVersion": "2.13.0-alpha.20220221.5",
+  "Version": "2.13.0-alpha.20220222.4",
+  "DevVersion": "2.13.0-alpha.20220222.4",
   "DirectoryPath": "sdk/resourcemanager/azure-resourcemanager-cdn",
   "ServiceDirectory": "resourcemanager",
   "ReadMePath": "sdk/resourcemanager/azure-resourcemanager-cdn/README.md",

@@ -10,7 +10,7 @@ ms.technology: azure
 ms.devlang: java
 ms.service: contentdeliverynetwork
 ---
-# Azure Resource Manager CDN client library for Java - Version 2.13.0-alpha.20220221.5 
+# Azure Resource Manager CDN client library for Java - Version 2.13.0-alpha.20220222.4 
 
 
 Azure Resource Manager CDN client library for Java
@@ -31,7 +31,7 @@ For documentation on how to use this package, please see [Azure Management Libra
 <dependency>
     <groupId>com.azure.resourcemanager</groupId>
     <artifactId>azure-resourcemanager-cdn</artifactId>
-    <version>2.12.0</version>
+    <version>2.12.1</version>
 </dependency>
 ```
 [//]: # ({x-version-update-end})
