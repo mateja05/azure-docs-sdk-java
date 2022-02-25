@@ -10,7 +10,7 @@ ms.technology: azure
 ms.devlang: java
 ms.service: storage
 ---
-# Azure Storage Blobs Batch client library for Java - Version 12.12.0-alpha.20220225.1 
+# Azure Storage Blobs Batch client library for Java - Version 12.12.0-alpha.20220225.2 
 
 
 Azure Blob storage is Microsoft's object storage solution for the cloud. Blob
