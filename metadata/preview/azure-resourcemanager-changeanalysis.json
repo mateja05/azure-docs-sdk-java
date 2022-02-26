@@ -1,7 +1,7 @@
 {
   "Name": "azure-resourcemanager-changeanalysis",
-  "Version": "1.1.0-alpha.20220224.1",
-  "DevVersion": "1.1.0-alpha.20220224.1",
+  "Version": "1.1.0-alpha.20220225.1",
+  "DevVersion": "1.1.0-alpha.20220225.1",
   "DirectoryPath": "sdk/changeanalysis/azure-resourcemanager-changeanalysis",
   "ServiceDirectory": "changeanalysis",
   "ReadMePath": "sdk/changeanalysis/azure-resourcemanager-changeanalysis/README.md",
