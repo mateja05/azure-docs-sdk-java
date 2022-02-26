@@ -1,7 +1,7 @@
 {
   "Name": "azure-search-documents",
-  "Version": "11.5.0-alpha.20220224.1",
-  "DevVersion": "11.5.0-alpha.20220224.1",
+  "Version": "11.5.0-alpha.20220225.1",
+  "DevVersion": "11.5.0-alpha.20220225.1",
   "DirectoryPath": "sdk/search/azure-search-documents",
   "ServiceDirectory": "search",
   "ReadMePath": "sdk/search/azure-search-documents/README.md",
