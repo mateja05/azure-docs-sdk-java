@@ -3,7 +3,7 @@ title: Azure Storage Blob client library for Java
 keywords: Azure, java, SDK, API, azure-storage-blob, storage
 author: amishra-dev
 ms.author: amishra
-ms.date: 02/25/2022
+ms.date: 02/26/2022
 ms.topic: reference
 ms.prod: azure
 ms.technology: azure
