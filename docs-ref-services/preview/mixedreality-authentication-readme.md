@@ -3,14 +3,14 @@ title: Azure Mixed Reality client library for Java
 keywords: Azure, java, SDK, API, azure-mixedreality-authentication, mixedreality
 author: craigktreasure
 ms.author: crtreasu
-ms.date: 02/25/2022
+ms.date: 02/26/2022
 ms.topic: reference
 ms.prod: azure
 ms.technology: azure
 ms.devlang: java
 ms.service: mixedreality
 ---
-# Azure Mixed Reality client library for Java - Version 1.2.0-alpha.20220224.1 
+# Azure Mixed Reality client library for Java - Version 1.2.0-alpha.20220225.2 
 
 
 Mixed Reality services, like Azure Spatial Anchors, Azure Remote Rendering, and others, use the Mixed Reality security
