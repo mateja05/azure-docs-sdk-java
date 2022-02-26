@@ -3,14 +3,14 @@ title: Azure Storage Queue client library for Java
 keywords: Azure, java, SDK, API, azure-storage-queue, storage
 author: amishra-dev
 ms.author: amishra
-ms.date: 02/25/2022
+ms.date: 02/26/2022
 ms.topic: reference
 ms.prod: azure
 ms.technology: azure
 ms.devlang: java
 ms.service: storage
 ---
-# Azure Storage Queue client library for Java - Version 12.12.0-alpha.20220225.1 
+# Azure Storage Queue client library for Java - Version 12.12.0-alpha.20220225.2 
 
 Azure Queue storage is a service for storing large numbers of messages that can be accessed from anywhere in the world via authenticated calls using HTTP or HTTPS.
 A single queue message can be up to 64 KB in size, and a queue can contain millions of messages, up to the total capacity limit of a storage account.
