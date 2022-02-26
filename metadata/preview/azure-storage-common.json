@@ -1,7 +1,7 @@
 {
   "Name": "azure-storage-common",
-  "Version": "12.15.0-alpha.20220225.2",
-  "DevVersion": "12.15.0-alpha.20220225.2",
+  "Version": "12.15.0-alpha.20220225.3",
+  "DevVersion": "12.15.0-alpha.20220225.3",
   "DirectoryPath": "sdk/storage/azure-storage-common",
   "ServiceDirectory": "storage",
   "ReadMePath": "sdk/storage/azure-storage-common/README.md",
