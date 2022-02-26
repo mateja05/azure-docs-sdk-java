@@ -3,14 +3,14 @@ title: Azure Video Analyzer Edge client library for Java
 keywords: Azure, java, SDK, API, azure-media-videoanalyzer-edge, videoanalyzer
 author: joshfree
 ms.author: jfree
-ms.date: 02/25/2022
+ms.date: 02/26/2022
 ms.topic: reference
 ms.prod: azure
 ms.technology: azure
 ms.devlang: java
 ms.service: videoanalyzer
 ---
-# Azure Video Analyzer Edge client library for Java - Version 1.0.0-alpha.20220224.1 
+# Azure Video Analyzer Edge client library for Java - Version 1.0.0-alpha.20220225.1 
 
 
 Azure Video Analyzer is an [Azure Applied AI Service][applied-ai-service] that provides a platform for you to build intelligent video applications that can span both edge and cloud infrastructures. The platform offers the capability to capture, record, and analyze live video along with publishing the results, video and video analytics, to Azure services at the edge or in the cloud. It is designed to be an extensible platform, enabling you to connect different video inferencing edge modules such as Cognitive services modules, or custom inferencing modules that have been trained with your own data using either open-source machine learning or [Azure Machine Learning][machine-learning].
