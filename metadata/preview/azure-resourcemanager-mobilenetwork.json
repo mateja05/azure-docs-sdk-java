@@ -1,0 +1,14 @@
+{
+  "Name": "azure-resourcemanager-mobilenetwork",
+  "Version": "1.0.0-alpha.20220228.1",
+  "DevVersion": "1.0.0-alpha.20220228.1",
+  "DirectoryPath": "sdk/mobilenetwork/azure-resourcemanager-mobilenetwork",
+  "ServiceDirectory": "mobilenetwork",
+  "ReadMePath": "sdk/mobilenetwork/azure-resourcemanager-mobilenetwork/README.md",
+  "ChangeLogPath": "sdk/mobilenetwork/azure-resourcemanager-mobilenetwork/CHANGELOG.md",
+  "Group": "com.azure.resourcemanager",
+  "SdkType": "mgmt",
+  "IsNewSdk": true,
+  "ArtifactName": "azure-resourcemanager-mobilenetwork",
+  "ReleaseStatus": "Unreleased"
+}
