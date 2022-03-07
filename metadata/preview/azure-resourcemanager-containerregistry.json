@@ -1,0 +1,14 @@
+{
+  "Name": "azure-resourcemanager-containerregistry",
+  "Version": "1.0.0-hybrid",
+  "DevVersion": "1.0.0-hybrid",
+  "DirectoryPath": "sdk/resourcemanagerhybrid/azure-resourcemanager-containerregistry",
+  "ServiceDirectory": "resourcemanagerhybrid",
+  "ReadMePath": "sdk/resourcemanagerhybrid/azure-resourcemanager-containerregistry/README.md",
+  "ChangeLogPath": "sdk/resourcemanagerhybrid/azure-resourcemanager-containerregistry/CHANGELOG.md",
+  "Group": "com.azure.resourcemanager",
+  "SdkType": "mgmt",
+  "IsNewSdk": true,
+  "ArtifactName": "azure-resourcemanager-containerregistry",
+  "ReleaseStatus": "2022-01-12"
+}
