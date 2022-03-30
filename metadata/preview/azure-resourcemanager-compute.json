@@ -1,14 +1,14 @@
 {
   "Name": "azure-resourcemanager-compute",
-  "Version": "2.14.0-alpha.20220329.1",
-  "DevVersion": "2.14.0-alpha.20220329.1",
-  "DirectoryPath": "sdk/resourcemanager/azure-resourcemanager-compute",
-  "ServiceDirectory": "resourcemanager",
-  "ReadMePath": "sdk/resourcemanager/azure-resourcemanager-compute/README.md",
-  "ChangeLogPath": "sdk/resourcemanager/azure-resourcemanager-compute/CHANGELOG.md",
+  "Version": "1.0.0-hybrid",
+  "DevVersion": "1.0.0-hybrid",
+  "DirectoryPath": "sdk/resourcemanagerhybrid/azure-resourcemanager-compute",
+  "ServiceDirectory": "resourcemanagerhybrid",
+  "ReadMePath": "sdk/resourcemanagerhybrid/azure-resourcemanager-compute/README.md",
+  "ChangeLogPath": "sdk/resourcemanagerhybrid/azure-resourcemanager-compute/CHANGELOG.md",
   "Group": "com.azure.resourcemanager",
   "SdkType": "mgmt",
   "IsNewSdk": true,
   "ArtifactName": "azure-resourcemanager-compute",
-  "ReleaseStatus": "Unreleased"
+  "ReleaseStatus": "2022-01-12"
 }
