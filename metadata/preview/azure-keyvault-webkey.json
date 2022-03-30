@@ -1,0 +1,14 @@
+{
+  "Name": "azure-keyvault-webkey",
+  "Version": "1.3.0-alpha.20220330.1",
+  "DevVersion": "1.3.0-alpha.20220330.1",
+  "DirectoryPath": "sdk/keyvault/microsoft-azure-keyvault-webkey",
+  "ServiceDirectory": "keyvault",
+  "ReadMePath": "",
+  "ChangeLogPath": "",
+  "Group": "com.microsoft.azure",
+  "SdkType": "client",
+  "IsNewSdk": false,
+  "ArtifactName": "azure-keyvault-webkey",
+  "ReleaseStatus": null
+}
