@@ -1,0 +1,14 @@
+{
+  "Name": "azure-cognitiveservices-computervision",
+  "Version": "1.1.0-alpha.20220331.1",
+  "DevVersion": "1.1.0-alpha.20220331.1",
+  "DirectoryPath": "sdk/cognitiveservices/ms-azure-cs-computervision",
+  "ServiceDirectory": "cognitiveservices",
+  "ReadMePath": "",
+  "ChangeLogPath": "",
+  "Group": "com.microsoft.azure.cognitiveservices",
+  "SdkType": "client",
+  "IsNewSdk": false,
+  "ArtifactName": "azure-cognitiveservices-computervision",
+  "ReleaseStatus": null
+}
