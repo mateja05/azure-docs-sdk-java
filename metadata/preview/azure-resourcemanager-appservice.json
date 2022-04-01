@@ -1,14 +1,14 @@
 {
   "Name": "azure-resourcemanager-appservice",
-  "Version": "2.14.0-alpha.20220331.2",
-  "DevVersion": "2.14.0-alpha.20220331.2",
-  "DirectoryPath": "sdk/resourcemanager/azure-resourcemanager-appservice",
-  "ServiceDirectory": "resourcemanager",
-  "ReadMePath": "sdk/resourcemanager/azure-resourcemanager-appservice/README.md",
-  "ChangeLogPath": "sdk/resourcemanager/azure-resourcemanager-appservice/CHANGELOG.md",
+  "Version": "1.0.0-hybrid",
+  "DevVersion": "1.0.0-hybrid",
+  "DirectoryPath": "sdk/resourcemanagerhybrid/azure-resourcemanager-appservice",
+  "ServiceDirectory": "resourcemanagerhybrid",
+  "ReadMePath": "sdk/resourcemanagerhybrid/azure-resourcemanager-appservice/README.md",
+  "ChangeLogPath": "sdk/resourcemanagerhybrid/azure-resourcemanager-appservice/CHANGELOG.md",
   "Group": "com.azure.resourcemanager",
   "SdkType": "mgmt",
   "IsNewSdk": true,
   "ArtifactName": "azure-resourcemanager-appservice",
-  "ReleaseStatus": "Unreleased"
+  "ReleaseStatus": "2022-01-12"
 }
