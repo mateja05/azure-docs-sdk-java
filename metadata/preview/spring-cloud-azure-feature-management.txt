@@ -1,0 +1,3 @@
+com.microsoft.azure.spring.cloud.feature.manager
+com.microsoft.azure.spring.cloud.feature.manager.entities
+com.microsoft.azure.spring.cloud.feature.manager.feature.filters
