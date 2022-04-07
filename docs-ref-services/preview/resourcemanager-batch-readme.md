@@ -1,22 +1,21 @@
 ---
 title: Azure Resource Manager Batch client library for Java
 keywords: Azure, java, SDK, API, azure-resourcemanager-batch, batch
-author: ramya-rao-a
-ms.author: ramyar
-ms.date: 07/29/2021
+author: gingi
+ms.author: shpaster
+ms.date: 04/07/2022
 ms.topic: reference
 ms.prod: azure
 ms.technology: azure
 ms.devlang: java
 ms.service: batch
 ---
-
-# Azure Resource Manager Batch client library for Java - Version 1.0.0-beta.2 
+# Azure Resource Manager Batch client library for Java - Version 1.1.0-alpha.20220407.1 
 
 
 Azure Resource Manager Batch client library for Java.
 
-This package contains Microsoft Azure SDK for Batch Management SDK.  Package tag package-2021-06. For documentation on how to use this package, please see [Azure Management Libraries for Java](https://aka.ms/azsdk/java/mgmt).
+This package contains Microsoft Azure SDK for Batch Management SDK. Batch Client. Package tag package-2022-01. For documentation on how to use this package, please see [Azure Management Libraries for Java](https://aka.ms/azsdk/java/mgmt).
 
 ## We'd love to hear your feedback
 
@@ -46,7 +45,7 @@ Various documentation is available to help you get started
 <dependency>
     <groupId>com.azure.resourcemanager</groupId>
     <artifactId>azure-resourcemanager-batch</artifactId>
-    <version>1.0.0-beta.2</version>
+    <version>1.0.0</version>
 </dependency>
 ```
 [//]: # ({x-version-update-end})
@@ -88,7 +87,36 @@ See [API design][design] for general introduction on design and key concepts on 
 
 ## Examples
 
-[Code snippets and samples](https://github.com/Azure/azure-sdk-for-java/blob/azure-resourcemanager-batch_1.0.0-beta.2/sdk/batch/azure-resourcemanager-batch/SAMPLE.md)
+```java
+// batch account
+account = batchManager
+    .batchAccounts()
+    .define(batchAccountName)
+    .withRegion(REGION)
+    .withExistingResourceGroup(resourceGroup)
+    .create();
+
+// batch pool create
+pool = batchManager.pools()
+    .define(poolName)
+    .withExistingBatchAccount(resourceGroup, batchAccountName)
+    .withDisplayName(poolDisplayName)
+    .withDeploymentConfiguration(
+        new DeploymentConfiguration()
+            .withCloudServiceConfiguration(
+                new CloudServiceConfiguration().withOsFamily("4")))
+    .withScaleSettings(
+        new ScaleSettings()
+            .withFixedScale(
+                new FixedScaleSettings()
+                    .withResizeTimeout(Duration.parse("PT8M"))
+                    .withTargetDedicatedNodes(1)
+                    .withTargetLowPriorityNodes(1)
+                    .withNodeDeallocationOption(ComputeNodeDeallocationOption.TASK_COMPLETION)))
+    .withVmSize("Standard_D1")
+    .create();
+```
+[Code snippets and samples](https://github.com/Azure/azure-sdk-for-java/blob/main/sdk/batch/azure-resourcemanager-batch/SAMPLE.md)
 
 
 ## Troubleshooting
@@ -97,7 +125,7 @@ See [API design][design] for general introduction on design and key concepts on 
 
 ## Contributing
 
-For details on contributing to this repository, see the [contributing guide](https://github.com/Azure/azure-sdk-for-java/blob/azure-resourcemanager-batch_1.0.0-beta.2/CONTRIBUTING.md).
+For details on contributing to this repository, see the [contributing guide](https://github.com/Azure/azure-sdk-for-java/blob/main/CONTRIBUTING.md).
 
 1. Fork it
 1. Create your feature branch (`git checkout -b my-new-feature`)
@@ -110,8 +138,8 @@ For details on contributing to this repository, see the [contributing guide](htt
 [docs]: https://azure.github.io/azure-sdk-for-java/
 [jdk]: https://docs.microsoft.com/java/azure/jdk/
 [azure_subscription]: https://azure.microsoft.com/free/
-[azure_identity]: https://github.com/Azure/azure-sdk-for-java/blob/azure-resourcemanager-batch_1.0.0-beta.2/sdk/identity/azure-identity
-[azure_core_http_netty]: https://github.com/Azure/azure-sdk-for-java/blob/azure-resourcemanager-batch_1.0.0-beta.2/sdk/core/azure-core-http-netty
-[authenticate]: https://github.com/Azure/azure-sdk-for-java/blob/azure-resourcemanager-batch_1.0.0-beta.2/sdk/resourcemanager/docs/AUTH.md
-[design]: https://github.com/Azure/azure-sdk-for-java/blob/azure-resourcemanager-batch_1.0.0-beta.2/sdk/resourcemanager/docs/DESIGN.md
+[azure_identity]: https://github.com/Azure/azure-sdk-for-java/blob/main/sdk/identity/azure-identity
+[azure_core_http_netty]: https://github.com/Azure/azure-sdk-for-java/blob/main/sdk/core/azure-core-http-netty
+[authenticate]: https://github.com/Azure/azure-sdk-for-java/blob/main/sdk/resourcemanager/docs/AUTH.md
+[design]: https://github.com/Azure/azure-sdk-for-java/blob/main/sdk/resourcemanager/docs/DESIGN.md
 
