@@ -1,0 +1,14 @@
+{
+  "Name": "azure-eventhubs-extensions",
+  "Version": "3.4.0-alpha.20220408.1",
+  "DevVersion": "3.4.0-alpha.20220408.1",
+  "DirectoryPath": "sdk/eventhubs/microsoft-azure-eventhubs-extensions",
+  "ServiceDirectory": "eventhubs",
+  "ReadMePath": "",
+  "ChangeLogPath": "",
+  "Group": "com.microsoft.azure",
+  "SdkType": "client",
+  "IsNewSdk": false,
+  "ArtifactName": "azure-eventhubs-extensions",
+  "ReleaseStatus": null
+}
