@@ -1,0 +1,14 @@
+{
+  "Name": "azure-media",
+  "Version": "1.0.0-alpha.20220407.1",
+  "DevVersion": "1.0.0-alpha.20220407.1",
+  "DirectoryPath": "sdk/mediaservices/microsoft-azure-media",
+  "ServiceDirectory": "mediaservices",
+  "ReadMePath": "",
+  "ChangeLogPath": "",
+  "Group": "com.microsoft.azure",
+  "SdkType": "client",
+  "IsNewSdk": false,
+  "ArtifactName": "azure-media",
+  "ReleaseStatus": null
+}
