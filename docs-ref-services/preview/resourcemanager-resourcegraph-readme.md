@@ -10,7 +10,7 @@ ms.technology: azure
 ms.devlang: java
 ms.service: resourcegraph
 ---
-# Azure Resource Manager ResourceGraph client library for Java - Version 1.0.0-alpha.20220407.2 
+# Azure Resource Manager ResourceGraph client library for Java - Version 1.0.0-alpha.20220407.3 
 
 
 Azure Resource Manager ResourceGraph client library for Java.

@@ -1,7 +1,7 @@
 {
   "Name": "azure-resourcemanager-resourcegraph",
-  "Version": "1.0.0-alpha.20220407.2",
-  "DevVersion": "1.0.0-alpha.20220407.2",
+  "Version": "1.0.0-alpha.20220407.3",
+  "DevVersion": "1.0.0-alpha.20220407.3",
   "DirectoryPath": "sdk/resourcegraph/azure-resourcemanager-resourcegraph",
   "ServiceDirectory": "resourcegraph",
   "ReadMePath": "sdk/resourcegraph/azure-resourcemanager-resourcegraph/README.md",
