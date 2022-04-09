@@ -1,0 +1,14 @@
+{
+  "Name": "azure-cognitiveservices-customvision-prediction",
+  "Version": "1.1.0-alpha.20220408.1",
+  "DevVersion": "1.1.0-alpha.20220408.1",
+  "DirectoryPath": "sdk/cognitiveservices/ms-azure-cs-customvision-prediction",
+  "ServiceDirectory": "cognitiveservices",
+  "ReadMePath": "",
+  "ChangeLogPath": "",
+  "Group": "com.microsoft.azure.cognitiveservices",
+  "SdkType": "client",
+  "IsNewSdk": false,
+  "ArtifactName": "azure-cognitiveservices-customvision-prediction",
+  "ReleaseStatus": null
+}
