@@ -1,0 +1,14 @@
+{
+  "Name": "azure-cognitiveservices-customimagesearch",
+  "Version": "1.1.0-alpha.20220408.1",
+  "DevVersion": "1.1.0-alpha.20220408.1",
+  "DirectoryPath": "sdk/cognitiveservices/ms-azure-cs-customimagesearch",
+  "ServiceDirectory": "cognitiveservices",
+  "ReadMePath": "",
+  "ChangeLogPath": "",
+  "Group": "com.microsoft.azure.cognitiveservices",
+  "SdkType": "client",
+  "IsNewSdk": false,
+  "ArtifactName": "azure-cognitiveservices-customimagesearch",
+  "ReleaseStatus": null
+}
