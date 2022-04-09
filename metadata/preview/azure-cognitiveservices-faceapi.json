@@ -1,0 +1,14 @@
+{
+  "Name": "azure-cognitiveservices-faceapi",
+  "Version": "1.0.1-alpha.20220408.1",
+  "DevVersion": "1.0.1-alpha.20220408.1",
+  "DirectoryPath": "sdk/cognitiveservices/ms-azure-cs-faceapi",
+  "ServiceDirectory": "cognitiveservices",
+  "ReadMePath": "",
+  "ChangeLogPath": "",
+  "Group": "com.microsoft.azure.cognitiveservices",
+  "SdkType": "client",
+  "IsNewSdk": false,
+  "ArtifactName": "azure-cognitiveservices-faceapi",
+  "ReleaseStatus": null
+}
