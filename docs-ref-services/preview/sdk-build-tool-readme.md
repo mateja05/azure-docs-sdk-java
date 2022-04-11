@@ -1,9 +1,9 @@
 ---
 title: 
 keywords: Azure, java, SDK, API, azure-sdk-build-tool, tools
-author: joshfree
-ms.author: jfree
-ms.date: 03/01/2022
+author: ramya-rao-a
+ms.author: ramyar
+ms.date: 04/11/2022
 ms.topic: reference
 ms.prod: azure
 ms.technology: azure
