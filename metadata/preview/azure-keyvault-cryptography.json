@@ -1,0 +1,14 @@
+{
+  "Name": "azure-keyvault-cryptography",
+  "Version": "1.3.0-alpha.20220411.1",
+  "DevVersion": "1.3.0-alpha.20220411.1",
+  "DirectoryPath": "sdk/keyvault/microsoft-azure-keyvault-cryptography",
+  "ServiceDirectory": "keyvault",
+  "ReadMePath": "",
+  "ChangeLogPath": "",
+  "Group": "com.microsoft.azure",
+  "SdkType": "client",
+  "IsNewSdk": false,
+  "ArtifactName": "azure-keyvault-cryptography",
+  "ReleaseStatus": null
+}
