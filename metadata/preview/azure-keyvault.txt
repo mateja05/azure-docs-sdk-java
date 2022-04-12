@@ -1,0 +1,7 @@
+com.microsoft.azure.keyvault
+com.microsoft.azure.keyvault.authentication
+com.microsoft.azure.keyvault.implementation
+com.microsoft.azure.keyvault.messagesecurity
+com.microsoft.azure.keyvault.models
+com.microsoft.azure.keyvault.models.custom
+com.microsoft.azure.keyvault.requests
