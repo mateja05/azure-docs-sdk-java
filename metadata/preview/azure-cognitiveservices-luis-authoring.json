@@ -1,0 +1,14 @@
+{
+  "Name": "azure-cognitiveservices-luis-authoring",
+  "Version": "1.0.5-alpha.20220412.1",
+  "DevVersion": "1.0.5-alpha.20220412.1",
+  "DirectoryPath": "sdk/cognitiveservices/ms-azure-cs-luis-authoring",
+  "ServiceDirectory": "cognitiveservices",
+  "ReadMePath": "",
+  "ChangeLogPath": "",
+  "Group": "com.microsoft.azure.cognitiveservices",
+  "SdkType": "client",
+  "IsNewSdk": false,
+  "ArtifactName": "azure-cognitiveservices-luis-authoring",
+  "ReleaseStatus": null
+}
