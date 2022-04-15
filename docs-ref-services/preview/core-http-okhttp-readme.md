@@ -1,17 +1,16 @@
 ---
 title: Azure Core OkHttp HTTP plugin library for Java
 keywords: Azure, java, SDK, API, azure-core-http-okhttp, core
-author: ramya-rao-a
-ms.author: ramyar
-ms.date: 10/30/2020
+author: alzimmermsft
+ms.author: alzimmer
+ms.date: 04/15/2022
 ms.topic: reference
 ms.prod: azure
 ms.technology: azure
 ms.devlang: java
 ms.service: core
 ---
-
-# Azure Core OkHttp HTTP plugin library for Java - Version 1.3.3 
+# Azure Core OkHttp HTTP plugin library for Java - Version 1.9.0-alpha.20220415.1 
 
 
 Azure Core OkHttp HTTP client is a plugin for the `azure-core` HTTP client API.
@@ -23,13 +22,45 @@ Azure Core OkHttp HTTP client is a plugin for the `azure-core` HTTP client API.
 - A [Java Development Kit (JDK)][jdk_link], version 8 or later.
 
 ### Include the package
+#### Include the BOM file
+
+Please include the azure-sdk-bom to your project to take dependency on the General Availability (GA) version of the library. In the following snippet, replace the {bom_version_to_target} placeholder with the version number.
+To learn more about the BOM, see the [AZURE SDK BOM README](https://github.com/Azure/azure-sdk-for-java/blob/main/sdk/boms/azure-sdk-bom/README.md).
+
+```xml
+<dependencyManagement>
+    <dependencies>
+        <dependency>
+            <groupId>com.azure</groupId>
+            <artifactId>azure-sdk-bom</artifactId>
+            <version>{bom_version_to_target}</version>
+            <type>pom</type>
+            <scope>import</scope>
+        </dependency>
+    </dependencies>
+</dependencyManagement>
+```
+and then include the direct dependency in the dependencies section without the version tag.
+
+```xml
+<dependencies>
+  <dependency>
+    <groupId>com.azure</groupId>
+    <artifactId>azure-core-http-okhttp</artifactId>
+  </dependency>
+</dependencies>
+```
+
+#### Include direct dependency
+If you want to take dependency on a particular version of the library that is not present in the BOM,
+add the direct dependency to your project as follows.
 
 [//]: # ({x-version-update-start;com.azure:azure-core-http-okhttp;current})
 ```xml
 <dependency>
     <groupId>com.azure</groupId>
     <artifactId>azure-core-http-okhttp</artifactId>
-    <version>1.3.3</version>
+    <version>1.8.0</version>
 </dependency>
 ```
 [//]: # ({x-version-update-end})
@@ -47,8 +78,7 @@ The following sections provide several code snippets covering some of the most c
 
 Create an OkHttp client using a connection timeout of 60 seconds and a read timeout of 120 seconds.
 
-<!-- embedme ./src/samples/java/com/azure/core/http/okhttp/ReadmeSamples.java#L23-L23 -->
-```java
+```java readme-sample-createBasicClient
 HttpClient client = new OkHttpAsyncHttpClientBuilder().build();
 ```
 
@@ -56,10 +86,32 @@ HttpClient client = new OkHttpAsyncHttpClientBuilder().build();
 
 Create an OkHttp client that is using a proxy.
 
-<!-- embedme ./src/samples/java/com/azure/core/http/okhttp/ReadmeSamples.java#L30-L32 -->
-```java
+```java readme-sample-createProxyClient
 HttpClient client = new OkHttpAsyncHttpClientBuilder()
     .proxy(new ProxyOptions(ProxyOptions.Type.HTTP, new InetSocketAddress("<proxy-host>", 8888)))
+    .build();
+```
+
+### Create a Client with HTTP/2 Support
+
+Create an OkHttp client that supports both the HTTP/1.1 and HTTP/2 protocols, with HTTP/2 being the preferred protocol.
+
+```java readme-sample-useHttp2WithConfiguredOkHttpClient 
+// Constructs an HttpClient that supports both HTTP/1.1 and HTTP/2 with HTTP/2 being the preferred protocol.
+// This is the default handling for OkHttp.
+HttpClient client = new OkHttpAsyncHttpClientBuilder(new OkHttpClient.Builder()
+    .protocols(Arrays.asList(Protocol.HTTP_2, Protocol.HTTP_1_1))
+    .build())
+    .build();
+```
+
+It is also possible to create an OkHttp client that only supports HTTP/2.
+
+```java readme-sample-useHttp2OnlyWithConfiguredOkHttpClient
+// Constructs an HttpClient that only supports HTTP/2.
+HttpClient client = new OkHttpAsyncHttpClientBuilder(new OkHttpClient.Builder()
+    .protocols(Collections.singletonList(Protocol.H2_PRIOR_KNOWLEDGE))
+    .build())
     .build();
 ```
 
@@ -80,8 +132,7 @@ locate the root issue. View the [logging][logging] wiki for guidance about enabl
 
 ## Contributing
 
-If you would like to become an active contributor to this project please follow the instructions provided in [Microsoft
-Azure Projects Contribution Guidelines](https://azure.github.io/guidelines.html).
+For details on contributing to this repository, see the [contributing guide](https://github.com/Azure/azure-sdk-for-java/blob/main/CONTRIBUTING.md).
 
 1. Fork it
 1. Create your feature branch (`git checkout -b my-new-feature`)
