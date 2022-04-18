@@ -1,0 +1,14 @@
+{
+  "Name": "azure-eventhubs-eph",
+  "Version": "3.4.0-alpha.20220418.1",
+  "DevVersion": "3.4.0-alpha.20220418.1",
+  "DirectoryPath": "sdk/eventhubs/microsoft-azure-eventhubs-eph",
+  "ServiceDirectory": "eventhubs",
+  "ReadMePath": "sdk/eventhubs/microsoft-azure-eventhubs-eph/README.md",
+  "ChangeLogPath": "",
+  "Group": "com.microsoft.azure",
+  "SdkType": "client",
+  "IsNewSdk": false,
+  "ArtifactName": "azure-eventhubs-eph",
+  "ReleaseStatus": null
+}
