@@ -3,14 +3,14 @@ title: Azure Cloud Native Cloud Event client library for Java
 keywords: Azure, java, SDK, API, azure-messaging-eventgrid-cloudnative-cloudevents, eventgrid
 author: srnagar
 ms.author: srnagar
-ms.date: 01/24/2022
+ms.date: 04/18/2022
 ms.topic: reference
 ms.prod: azure
 ms.technology: azure
 ms.devlang: java
 ms.service: eventgrid
 ---
-# Azure Cloud Native Cloud Event client library for Java - Version 1.0.0-beta.1 
+# Azure Cloud Native Cloud Event client library for Java - Version 1.0.0-alpha.20220418.1 
 
 
 This library can be used to enable publishing the Cloud Native Computing Foundation(CNCF) [CloudEvents][CNCFCloudEvents]
@@ -127,12 +127,12 @@ If you would like to become an active contributor to this project please refer t
 Contribution Guidelines for more information.
 
 <!-- LINKS -->
-[eventgridGettingStarted]: https://github.com/Azure/azure-sdk-for-java/tree/azure-messaging-eventgrid-cloudnative-cloudevents_1.0.0-beta.1/sdk/eventgrid/azure-messaging-eventgrid#getting-started
+[eventgridGettingStarted]: https://github.com/Azure/azure-sdk-for-java/tree/main/sdk/eventgrid/azure-messaging-eventgrid#getting-started
 [eventgridConcept]: https://docs.microsoft.com/azure/event-grid/concepts
-[eventgridClientConcept]: https://github.com/Azure/azure-sdk-for-java/tree/azure-messaging-eventgrid-cloudnative-cloudevents_1.0.0-beta.1/sdk/eventgrid/azure-messaging-eventgrid#key-concepts
+[eventgridClientConcept]: https://github.com/Azure/azure-sdk-for-java/tree/main/sdk/eventgrid/azure-messaging-eventgrid#key-concepts
 [javadocs]: https://azure.github.io/azure-sdk-for-java/eventgrid.html
 [CNCFCloudEvents]: https://cloudevents.github.io/sdk-java/
-[HttpResponseException]: https://github.com/Azure/azure-sdk-for-java/blob/azure-messaging-eventgrid-cloudnative-cloudevents_1.0.0-beta.1/sdk/core/azure-core/src/main/java/com/azure/core/exception/HttpResponseException.java
+[HttpResponseException]: https://github.com/Azure/azure-sdk-for-java/blob/main/sdk/core/azure-core/src/main/java/com/azure/core/exception/HttpResponseException.java
 
 ![Impressions](https://azure-sdk-impressions.azurewebsites.net/api/impressions/azure-sdk-for-java%2Fsdk%2Feventgrid%2Fazure-messaging-eventgrid-cloudnative-cloudevents%2FREADME.png)
 
