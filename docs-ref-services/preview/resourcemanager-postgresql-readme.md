@@ -10,7 +10,7 @@ ms.technology: azure
 ms.devlang: java
 ms.service: postgresql
 ---
-# Azure Resource Manager PostgreSql client library for Java - Version 1.1.0-alpha.20220420.1 
+# Azure Resource Manager PostgreSql client library for Java - Version 1.1.0-alpha.20220421.1 
 
 
 Azure Resource Manager PostgreSql client library for Java.
