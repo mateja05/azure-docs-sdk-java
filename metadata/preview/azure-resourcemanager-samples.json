@@ -1,7 +1,7 @@
 {
   "Name": "azure-resourcemanager-samples",
-  "Version": "2.0.0-alpha.20220426.3",
-  "DevVersion": "2.0.0-alpha.20220426.3",
+  "Version": "2.0.0-alpha.20220426.4",
+  "DevVersion": "2.0.0-alpha.20220426.4",
   "DirectoryPath": "sdk/resourcemanager/azure-resourcemanager-samples",
   "ServiceDirectory": "resourcemanager",
   "ReadMePath": "sdk/resourcemanager/azure-resourcemanager-samples/README.md",

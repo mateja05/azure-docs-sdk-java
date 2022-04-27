@@ -1,7 +1,7 @@
 {
   "Name": "azure-resourcemanager-appservice",
-  "Version": "2.15.0-alpha.20220426.3",
-  "DevVersion": "2.15.0-alpha.20220426.3",
+  "Version": "2.15.0-alpha.20220426.4",
+  "DevVersion": "2.15.0-alpha.20220426.4",
   "DirectoryPath": "sdk/resourcemanager/azure-resourcemanager-appservice",
   "ServiceDirectory": "resourcemanager",
   "ReadMePath": "sdk/resourcemanager/azure-resourcemanager-appservice/README.md",

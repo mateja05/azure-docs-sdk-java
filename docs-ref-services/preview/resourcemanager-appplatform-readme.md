@@ -10,7 +10,7 @@ ms.technology: azure
 ms.devlang: java
 ms.service: spring-cloud
 ---
-# Azure Resource Manager App Platform client library for Java - Version 2.15.0-alpha.20220426.3 
+# Azure Resource Manager App Platform client library for Java - Version 2.15.0-alpha.20220426.4 
 
 
 Azure Resource Manager App Platform client library for Java
