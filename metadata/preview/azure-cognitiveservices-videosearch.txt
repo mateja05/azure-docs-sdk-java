@@ -1,0 +1,3 @@
+com.microsoft.azure.cognitiveservices.search.videosearch
+com.microsoft.azure.cognitiveservices.search.videosearch.implementation
+com.microsoft.azure.cognitiveservices.search.videosearch.models
