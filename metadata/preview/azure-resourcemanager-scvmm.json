@@ -1,0 +1,14 @@
+{
+  "Name": "azure-resourcemanager-scvmm",
+  "Version": "1.0.0-alpha.20220503.1",
+  "DevVersion": "1.0.0-alpha.20220503.1",
+  "DirectoryPath": "sdk/scvmm/azure-resourcemanager-scvmm",
+  "ServiceDirectory": "scvmm",
+  "ReadMePath": "sdk/scvmm/azure-resourcemanager-scvmm/README.md",
+  "ChangeLogPath": "sdk/scvmm/azure-resourcemanager-scvmm/CHANGELOG.md",
+  "Group": "com.azure.resourcemanager",
+  "SdkType": "mgmt",
+  "IsNewSdk": true,
+  "ArtifactName": "azure-resourcemanager-scvmm",
+  "ReleaseStatus": "2022-04-28"
+}
