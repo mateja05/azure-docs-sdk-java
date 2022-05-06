@@ -1,0 +1,14 @@
+{
+  "Name": "azure-resourcemanager-monitor",
+  "Version": "1.0.0-hybrid",
+  "DevVersion": "1.0.0-hybrid",
+  "DirectoryPath": "sdk/resourcemanagerhybrid/azure-resourcemanager-monitor",
+  "ServiceDirectory": "resourcemanagerhybrid",
+  "ReadMePath": "sdk/resourcemanagerhybrid/azure-resourcemanager-monitor/README.md",
+  "ChangeLogPath": "sdk/resourcemanagerhybrid/azure-resourcemanager-monitor/CHANGELOG.md",
+  "Group": "com.azure.resourcemanager",
+  "SdkType": "mgmt",
+  "IsNewSdk": true,
+  "ArtifactName": "azure-resourcemanager-monitor",
+  "ReleaseStatus": "2022-01-12"
+}
