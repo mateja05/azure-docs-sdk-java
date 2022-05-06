@@ -1,0 +1,5 @@
+com.microsoft.azure.spring.cloud.config
+com.microsoft.azure.spring.cloud.config.feature.management.entity
+com.microsoft.azure.spring.cloud.config.pipline.policies
+com.microsoft.azure.spring.cloud.config.resource
+com.microsoft.azure.spring.cloud.config.stores
