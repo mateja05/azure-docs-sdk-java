@@ -1,5 +1,3 @@
-com.azure.storage.blob
-com.azure.storage.blob.models
-com.azure.storage.blob.options
-com.azure.storage.blob.sas
-com.azure.storage.blob.specialized
+com.microsoft.azure.storage.blob
+com.microsoft.azure.storage.blob.implementation
+com.microsoft.azure.storage.blob.models
