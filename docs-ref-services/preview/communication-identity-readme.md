@@ -1,17 +1,14 @@
 ---
 title: Azure Communication Identity client library for Java
 keywords: Azure, java, SDK, API, azure-communication-identity, communication
-author: ramya-rao-a
-ms.author: ramyar
-ms.date: 10/29/2021
+author: JianpingChen
+ms.author: jiach
+ms.date: 05/20/2022
 ms.topic: reference
-ms.prod: azure
-ms.technology: azure
 ms.devlang: java
 ms.service: communication
 ---
-
-# Azure Communication Identity client library for Java - Version 1.2.0-beta.1 
+# Azure Communication Identity client library for Java - Version 1.2.0-alpha.20220520.1 
 
 
 The identity package is used for managing users and tokens for Azure Communication Services.
@@ -25,15 +22,15 @@ The identity package is used for managing users and tokens for Azure Communicati
 ### Prerequisites
 
 - An Azure subscription. [Create an account for free](https://azure.microsoft.com/free/?WT.mc_id=A261C142F).
-- [Java Development Kit (JDK)](https://docs.microsoft.com/java/azure/jdk/?view=azure-java-stable) version 8 or above.
+- [Java Development Kit (JDK)](/java/azure/jdk/?view=azure-java-stable) version 8 or above.
 - [Apache Maven](https://maven.apache.org/download.cgi).
-- A Communication Services resource. You can use the [Azure Portal](https://docs.microsoft.com/azure/communication-services/quickstarts/create-communication-resource?tabs=windows&pivots=platform-azp) or the [Azure PowerShell](https://docs.microsoft.com/powershell/module/az.communication/new-azcommunicationservice) to set it up.
+- A Communication Services resource. You can use the [Azure Portal](/azure/communication-services/quickstarts/create-communication-resource?tabs=windows&pivots=platform-azp) or the [Azure PowerShell](/powershell/module/az.communication/new-azcommunicationservice) to set it up.
 
 ### Include the package
 #### Include the BOM file
 
 Please include the azure-sdk-bom to your project to take dependency on the General Availability (GA) version of the library. In the following snippet, replace the {bom_version_to_target} placeholder with the version number.
-To learn more about the BOM, see the [AZURE SDK BOM README](https://github.com/Azure/azure-sdk-for-java/blob/azure-communication-identity_1.2.0-beta.1/sdk/boms/azure-sdk-bom/README.md).
+To learn more about the BOM, see the [AZURE SDK BOM README](https://github.com/Azure/azure-sdk-for-java/blob/main/sdk/boms/azure-sdk-bom/README.md).
 
 ```xml
 <dependencyManagement>
@@ -140,7 +137,7 @@ System.out.println("User id: " + user.getId());
 
 ### Getting a token for an existing user
 Use the `getToken` function to get a token for an existing user. The function
-also takes in a list of `CommunicationTokenScope`. Scope options include:
+also takes in a list of `CommunicationIdentityTokenScope`. Scope options include:
 - `chat` (Chat)
 - `voip` (Voice over IP)
 
@@ -184,19 +181,10 @@ Use the `deleteUser` function to delete a user.
 communicationIdentityClient.deleteUser(user);
 ```
 
-### Exchanging AAD access token of a Teams User for a Communication Identity access token
-Use the `getTokenForTeamsUser` function to exchanges an AAD access token of a Teams User for a new Communication Identity access token.
-
-<!-- embedme ./src/samples/java/com/azure/communication/identity/ReadmeSamples.java#L139-L146 -->
-```java
-// exchanges an AAD access token of a Teams User for a new Communication Identity access token.
-communicationIdentityClient.getTokenForTeamsUser(teamsUserAadToken);
-```
-
 ## Troubleshooting
 
 All user token service operations will throw an exception on failure.
-<!-- embedme ./src/samples/java/com/azure/communication/identity/ReadmeSamples.java#L151-L159 -->
+<!-- embedme ./src/samples/java/com/azure/communication/identity/ReadmeSamples.java#L139-L143 -->
 ```java
 try {
     CommunicationUserIdentifier user = communicationIdentityClient.createUser();
@@ -222,11 +210,11 @@ This project has adopted the [Microsoft Open Source Code of Conduct][coc]. For m
 [coc]: https://opensource.microsoft.com/codeofconduct/
 [coc_faq]: https://opensource.microsoft.com/codeofconduct/faq/
 [coc_contact]: mailto:opencode@microsoft.com
-[product_docs]: https://docs.microsoft.com/azure/communication-services/
+[product_docs]: /azure/communication-services/
 [package]: https://search.maven.org/artifact/com.azure/azure-communication-identity
 [api_documentation]: https://aka.ms/java-docs
-[samples]: https://github.com/Azure/azure-sdk-for-java/blob/azure-communication-identity_1.2.0-beta.1/sdk/communication/azure-communication-identity/src/samples/java/com/azure/communication/identity/ReadmeSamples.java
-[source]: https://github.com/Azure/azure-sdk-for-java/tree/azure-communication-identity_1.2.0-beta.1/sdk/communication/azure-communication-identity/src
+[samples]: https://github.com/Azure/azure-sdk-for-java/blob/main/sdk/communication/azure-communication-identity/src/samples/java/com/azure/communication/identity/ReadmeSamples.java
+[source]: https://github.com/Azure/azure-sdk-for-java/tree/main/sdk/communication/azure-communication-identity/src
 
 ![Impressions](https://azure-sdk-impressions.azurewebsites.net/api/impressions/azure-sdk-for-java%2Fsdk%2Fcommunication%2Fazure-communication-identity%2FREADME.png)
 
