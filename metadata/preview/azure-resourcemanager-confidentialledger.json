@@ -1,0 +1,14 @@
+{
+  "Name": "azure-resourcemanager-confidentialledger",
+  "Version": "1.0.0-alpha.20220525.1",
+  "DevVersion": "1.0.0-alpha.20220525.1",
+  "DirectoryPath": "sdk/confidentialledger/azure-resourcemanager-confidentialledger",
+  "ServiceDirectory": "confidentialledger",
+  "ReadMePath": "sdk/confidentialledger/azure-resourcemanager-confidentialledger/README.md",
+  "ChangeLogPath": "sdk/confidentialledger/azure-resourcemanager-confidentialledger/CHANGELOG.md",
+  "Group": "com.azure.resourcemanager",
+  "SdkType": "mgmt",
+  "IsNewSdk": true,
+  "ArtifactName": "azure-resourcemanager-confidentialledger",
+  "ReleaseStatus": "Unreleased"
+}
