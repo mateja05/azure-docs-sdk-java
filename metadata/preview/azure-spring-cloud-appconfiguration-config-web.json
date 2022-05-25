@@ -1,7 +1,7 @@
 {
   "Name": "azure-spring-cloud-appconfiguration-config-web",
-  "Version": "2.7.0-alpha.20220525.6",
-  "DevVersion": "2.7.0-alpha.20220525.6",
+  "Version": "2.7.0-alpha.20220525.9",
+  "DevVersion": "2.7.0-alpha.20220525.9",
   "DirectoryPath": "sdk/appconfiguration/azure-spring-cloud-appconfiguration-config-web",
   "ServiceDirectory": "appconfiguration",
   "ReadMePath": "sdk/appconfiguration/azure-spring-cloud-appconfiguration-config-web/README.md",

@@ -1,7 +1,7 @@
 {
   "Name": "azure-spring-cloud-feature-management",
-  "Version": "2.6.0-alpha.20220525.6",
-  "DevVersion": "2.6.0-alpha.20220525.6",
+  "Version": "2.6.0-alpha.20220525.9",
+  "DevVersion": "2.6.0-alpha.20220525.9",
   "DirectoryPath": "sdk/appconfiguration/azure-spring-cloud-feature-management",
   "ServiceDirectory": "appconfiguration",
   "ReadMePath": "sdk/appconfiguration/azure-spring-cloud-feature-management/README.md",
