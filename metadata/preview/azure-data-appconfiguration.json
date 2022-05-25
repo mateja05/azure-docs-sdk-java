@@ -1,7 +1,7 @@
 {
   "Name": "azure-data-appconfiguration",
-  "Version": "1.4.0-alpha.20220525.5",
-  "DevVersion": "1.4.0-alpha.20220525.5",
+  "Version": "1.4.0-alpha.20220525.6",
+  "DevVersion": "1.4.0-alpha.20220525.6",
   "DirectoryPath": "sdk/appconfiguration/azure-data-appconfiguration",
   "ServiceDirectory": "appconfiguration",
   "ReadMePath": "sdk/appconfiguration/azure-data-appconfiguration/README.md",

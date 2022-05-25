@@ -8,7 +8,7 @@ ms.topic: reference
 ms.devlang: java
 ms.service: appconfiguration
 ---
-# Azure Resource Manager AppConfiguration client library for Java - Version 1.0.0-alpha.20220525.5 
+# Azure Resource Manager AppConfiguration client library for Java - Version 1.0.0-alpha.20220525.6 
 
 
 Azure Resource Manager AppConfiguration client library for Java.
