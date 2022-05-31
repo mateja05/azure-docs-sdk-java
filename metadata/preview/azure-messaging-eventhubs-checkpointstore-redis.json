@@ -1,0 +1,14 @@
+{
+  "Name": "azure-messaging-eventhubs-checkpointstore-redis",
+  "Version": "1.0.0-alpha.20220531.1",
+  "DevVersion": "1.0.0-alpha.20220531.1",
+  "DirectoryPath": "sdk/eventhubs/azure-messaging-eventhubs-checkpointstore-redis",
+  "ServiceDirectory": "eventhubs",
+  "ReadMePath": "sdk/eventhubs/azure-messaging-eventhubs-checkpointstore-redis/README.md",
+  "ChangeLogPath": "sdk/eventhubs/azure-messaging-eventhubs-checkpointstore-redis/CHANGELOG.md",
+  "Group": "com.azure",
+  "SdkType": "client",
+  "IsNewSdk": true,
+  "ArtifactName": "azure-messaging-eventhubs-checkpointstore-redis",
+  "ReleaseStatus": "Unreleased"
+}
