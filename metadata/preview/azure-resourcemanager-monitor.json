@@ -1,7 +1,7 @@
 {
   "Name": "azure-resourcemanager-monitor",
-  "Version": "2.17.0-alpha.20220706.2",
-  "DevVersion": "2.17.0-alpha.20220706.2",
+  "Version": "2.17.0-alpha.20220706.3",
+  "DevVersion": "2.17.0-alpha.20220706.3",
   "DirectoryPath": "sdk/resourcemanager/azure-resourcemanager-monitor",
   "ServiceDirectory": "resourcemanager",
   "ReadMePath": "sdk/resourcemanager/azure-resourcemanager-monitor/README.md",
