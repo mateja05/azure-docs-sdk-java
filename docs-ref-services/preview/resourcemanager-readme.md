@@ -8,7 +8,7 @@ ms.topic: reference
 ms.devlang: java
 ms.service: resourcemanager
 ---
-# Azure Resource Manager client library for Java - Version 2.17.0-alpha.20220706.3 
+# Azure Resource Manager client library for Java - Version 2.17.0-alpha.20220707.1 
 
 
 Azure Resource Manager client library for Java

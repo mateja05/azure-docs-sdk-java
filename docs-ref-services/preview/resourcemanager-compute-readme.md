@@ -8,7 +8,7 @@ ms.topic: reference
 ms.devlang: java
 ms.service: big-compute
 ---
-# Azure Resource Manager Compute client library for Java - Version 2.17.0-alpha.20220706.3 
+# Azure Resource Manager Compute client library for Java - Version 2.17.0-alpha.20220707.1 
 
 
 Azure Resource Manager Compute client library for Java
