@@ -1,2 +1,3 @@
 com.microsoft.azure.cognitiveservices.search.visualsearch
+com.microsoft.azure.cognitiveservices.search.visualsearch.implementation
 com.microsoft.azure.cognitiveservices.search.visualsearch.models
