@@ -8,7 +8,7 @@ ms.topic: reference
 ms.devlang: java
 ms.service: commerce
 ---
-# Azure Resource Manager Usage client library for Java - version 1.0.0-alpha.20220804.1 
+# Azure Resource Manager Usage client library for Java - version 1.0.0-alpha.20220805.1 
 
 
 Azure Resource Manager Usage client library for Java.
