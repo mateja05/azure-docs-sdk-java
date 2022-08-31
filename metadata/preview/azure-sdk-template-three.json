@@ -1,7 +1,7 @@
 {
   "Name": "azure-sdk-template-three",
-  "Version": "1.0.0-beta.1804329",
-  "DevVersion": null,
+  "Version": "1.0.0-alpha.20220831.2",
+  "DevVersion": "1.0.0-alpha.20220831.2",
   "DirectoryPath": "sdk/template/azure-sdk-template-three",
   "ServiceDirectory": "template",
   "ReadMePath": "sdk/template/azure-sdk-template-three/README.md",
@@ -10,5 +10,5 @@
   "SdkType": "client",
   "IsNewSdk": true,
   "ArtifactName": "azure-sdk-template-three",
-  "ReleaseStatus": "2022-08-24"
+  "ReleaseStatus": "2022-08-31"
 }
