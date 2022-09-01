@@ -8,7 +8,7 @@ ms.topic: reference
 ms.devlang: java
 ms.service: personalizer
 ---
-# Azure Personalizer client library for Java - version 1.0.0-alpha.20220831.1 
+# Azure Personalizer client library for Java - version 1.0.0-alpha.20220901.1 
 
 
 [Azure Personalizer](/azure/cognitive-services/personalizer/)
