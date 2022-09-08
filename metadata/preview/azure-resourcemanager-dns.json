@@ -1,7 +1,7 @@
 {
   "Name": "azure-resourcemanager-dns",
-  "Version": "2.18.0-alpha.20220907.2",
-  "DevVersion": "2.18.0-alpha.20220907.2",
+  "Version": "2.19.0-alpha.20220907.3",
+  "DevVersion": "2.19.0-alpha.20220907.3",
   "DirectoryPath": "sdk/resourcemanager/azure-resourcemanager-dns",
   "ServiceDirectory": "resourcemanager",
   "ReadMePath": "sdk/resourcemanager/azure-resourcemanager-dns/README.md",
@@ -10,5 +10,5 @@
   "SdkType": "mgmt",
   "IsNewSdk": true,
   "ArtifactName": "azure-resourcemanager-dns",
-  "ReleaseStatus": "2022-08-26"
+  "ReleaseStatus": "Unreleased"
 }

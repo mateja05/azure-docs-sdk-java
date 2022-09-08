@@ -8,7 +8,7 @@ ms.topic: reference
 ms.devlang: java
 ms.service: container-instances
 ---
-# Azure Resource Manager Container Instance client library for Java - version 2.18.0-alpha.20220907.2 
+# Azure Resource Manager Container Instance client library for Java - version 2.19.0-alpha.20220907.3 
 
 
 Azure Resource Manager Container Instance client library for Java
