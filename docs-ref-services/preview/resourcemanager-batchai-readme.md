@@ -8,7 +8,7 @@ ms.topic: reference
 ms.devlang: java
 ms.service: batchai
 ---
-# Azure Resource Manager BatchAI client library for Java - version 1.0.0-alpha.20220914.1 
+# Azure Resource Manager BatchAI client library for Java - version 1.0.0-alpha.20220915.1 
 
 
 Azure Resource Manager BatchAI client library for Java.
