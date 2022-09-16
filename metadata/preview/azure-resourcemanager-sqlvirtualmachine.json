@@ -1,7 +1,7 @@
 {
   "Name": "azure-resourcemanager-sqlvirtualmachine",
-  "Version": "1.0.0-alpha.20220914.1",
-  "DevVersion": "1.0.0-alpha.20220914.1",
+  "Version": "1.0.0-alpha.20220915.1",
+  "DevVersion": "1.0.0-alpha.20220915.1",
   "DirectoryPath": "sdk/sqlvirtualmachine/azure-resourcemanager-sqlvirtualmachine",
   "ServiceDirectory": "sqlvirtualmachine",
   "ReadMePath": "sdk/sqlvirtualmachine/azure-resourcemanager-sqlvirtualmachine/README.md",
