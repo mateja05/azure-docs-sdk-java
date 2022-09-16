@@ -8,7 +8,7 @@ ms.topic: reference
 ms.devlang: java
 ms.service: schema-registry
 ---
-# Azure Schema Registry client library for Java - version 1.3.0-alpha.20220915.1 
+# Azure Schema Registry client library for Java - version 1.3.0-alpha.20220916.1 
 
 
 Azure Schema Registry is a schema repository service hosted by Azure Event Hubs, providing schema storage, versioning,
