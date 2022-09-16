@@ -1,7 +1,7 @@
 {
   "Name": "azure-resourcemanager-mediaservices",
-  "Version": "2.2.0-alpha.20220914.4",
-  "DevVersion": "2.2.0-alpha.20220914.4",
+  "Version": "2.2.0-alpha.20220915.1",
+  "DevVersion": "2.2.0-alpha.20220915.1",
   "DirectoryPath": "sdk/mediaservices/azure-resourcemanager-mediaservices",
   "ServiceDirectory": "mediaservices",
   "ReadMePath": "sdk/mediaservices/azure-resourcemanager-mediaservices/README.md",
