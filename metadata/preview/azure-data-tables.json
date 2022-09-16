@@ -1,7 +1,7 @@
 {
   "Name": "azure-data-tables",
-  "Version": "12.4.0-alpha.20220915.1",
-  "DevVersion": "12.4.0-alpha.20220915.1",
+  "Version": "12.4.0-alpha.20220916.1",
+  "DevVersion": "12.4.0-alpha.20220916.1",
   "DirectoryPath": "sdk/tables/azure-data-tables",
   "ServiceDirectory": "tables",
   "ReadMePath": "sdk/tables/azure-data-tables/README.md",
