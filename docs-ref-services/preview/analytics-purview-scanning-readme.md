@@ -8,7 +8,7 @@ ms.topic: reference
 ms.devlang: java
 ms.service: purview
 ---
-# Azure Purview Scanning client library for Java - version 1.0.0-alpha.20220915.1 
+# Azure Purview Scanning client library for Java - version 1.0.0-alpha.20220916.1 
 
 
 Azure Purview Scanning is a fully managed cloud service whose users can scan your data into your data estate (also known as your **catalog**). Scanning is a process by which the catalog connects directly to a data source on a user-specified schedule.
