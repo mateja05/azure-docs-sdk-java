@@ -1,7 +1,7 @@
 {
   "Name": "azure-resourcemanager-hybridcompute",
-  "Version": "1.0.0-alpha.20220914.1",
-  "DevVersion": "1.0.0-alpha.20220914.1",
+  "Version": "1.0.0-alpha.20220915.1",
+  "DevVersion": "1.0.0-alpha.20220915.1",
   "DirectoryPath": "sdk/hybridcompute/azure-resourcemanager-hybridcompute",
   "ServiceDirectory": "hybridcompute",
   "ReadMePath": "sdk/hybridcompute/azure-resourcemanager-hybridcompute/README.md",
