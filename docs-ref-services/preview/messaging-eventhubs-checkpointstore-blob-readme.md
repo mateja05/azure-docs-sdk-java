@@ -8,7 +8,7 @@ ms.topic: reference
 ms.devlang: java
 ms.service: eventhubs
 ---
-# Azure Event Hubs Checkpoint Store client library for Java - version 1.16.0-alpha.20220915.1 
+# Azure Event Hubs Checkpoint Store client library for Java - version 1.16.0-alpha.20220916.1 
  using Storage Blobs
 
 Azure Event Hubs Checkpoint Store can be used for storing checkpoints while processing events from Azure Event Hubs.
