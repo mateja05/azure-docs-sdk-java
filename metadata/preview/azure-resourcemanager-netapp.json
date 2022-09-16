@@ -1,7 +1,7 @@
 {
   "Name": "azure-resourcemanager-netapp",
-  "Version": "1.0.0-alpha.20220915.1",
-  "DevVersion": "1.0.0-alpha.20220915.1",
+  "Version": "1.0.0-alpha.20220916.1",
+  "DevVersion": "1.0.0-alpha.20220916.1",
   "DirectoryPath": "sdk/netapp/azure-resourcemanager-netapp",
   "ServiceDirectory": "netapp",
   "ReadMePath": "sdk/netapp/azure-resourcemanager-netapp/README.md",
