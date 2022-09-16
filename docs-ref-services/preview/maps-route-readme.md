@@ -8,7 +8,7 @@ ms.topic: reference
 ms.devlang: java
 ms.service: maps
 ---
-# Azure Maps SDK Route client library for Java - version 1.0.0-alpha.20220914.1 
+# Azure Maps SDK Route client library for Java - version 1.0.0-alpha.20220915.1 
 
 
 Azure Maps SDK Route client library for Java.
