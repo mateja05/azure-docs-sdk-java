@@ -8,7 +8,7 @@ ms.topic: reference
 ms.devlang: java
 ms.service: storage
 ---
-# Azure Storage Common shared library for Java - version 12.19.0-alpha.20220915.1 
+# Azure Storage Common shared library for Java - version 12.19.0-alpha.20220916.1 
 
 Azure Storage Common is a library that has common dependencies for all Azure Storage packages.
 
