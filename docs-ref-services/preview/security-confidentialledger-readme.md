@@ -8,7 +8,7 @@ ms.topic: reference
 ms.devlang: java
 ms.service: confidentialledger
 ---
-# Azure Confidential Ledger client library for Java - version 1.1.0-alpha.20220915.1 
+# Azure Confidential Ledger client library for Java - version 1.1.0-alpha.20220916.1 
 
 
 Azure Confidential Ledger provides a service for logging to an immutable, tamper-proof ledger. As part of the [Azure Confidential Computing][azure_confidential_computing]
