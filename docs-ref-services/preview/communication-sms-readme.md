@@ -8,7 +8,7 @@ ms.topic: reference
 ms.devlang: java
 ms.service: communication
 ---
-# Azure Communications SMS Service client library for Java - version 1.2.0-alpha.20220915.1 
+# Azure Communications SMS Service client library for Java - version 1.2.0-alpha.20220916.1 
 
 
 Azure Communication SMS is used to send simple text messages.
