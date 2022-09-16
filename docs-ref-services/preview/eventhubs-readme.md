@@ -9,7 +9,7 @@ ms.devlang: java
 ms.service: eventhubs
 ---
 
-# Azure Event Hubs client library for Java - version 3.4.0-alpha.20220915.1 
+# Azure Event Hubs client library for Java - version 3.4.0-alpha.20220916.1 
 
 
 > Please note, a newer package [com.azure:azure-messaging-eventhubs](https://search.maven.org/artifact/com.azure/azure-messaging-eventhubs) for [Azure Event Hubs](https://azure.microsoft.com/services/event-hubs/) is available as of February 2020. While this package will continue to receive critical bug fixes, we strongly encourage you to upgrade. Read the [migration guide](https://aka.ms/azsdk/java/migrate/eh) for more details.
