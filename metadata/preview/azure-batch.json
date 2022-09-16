@@ -1,7 +1,7 @@
 {
   "Name": "azure-batch",
-  "Version": "10.1.0-alpha.20220914.1",
-  "DevVersion": "10.1.0-alpha.20220914.1",
+  "Version": "10.1.0-alpha.20220915.1",
+  "DevVersion": "10.1.0-alpha.20220915.1",
   "DirectoryPath": "sdk/batch/microsoft-azure-batch",
   "ServiceDirectory": "batch",
   "ReadMePath": "sdk/batch/microsoft-azure-batch/README.md",
