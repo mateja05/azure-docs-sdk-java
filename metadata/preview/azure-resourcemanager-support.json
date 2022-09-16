@@ -1,7 +1,7 @@
 {
   "Name": "azure-resourcemanager-support",
-  "Version": "1.0.0-alpha.20220915.1",
-  "DevVersion": "1.0.0-alpha.20220915.1",
+  "Version": "1.0.0-alpha.20220916.1",
+  "DevVersion": "1.0.0-alpha.20220916.1",
   "DirectoryPath": "sdk/support/azure-resourcemanager-support",
   "ServiceDirectory": "support",
   "ReadMePath": "sdk/support/azure-resourcemanager-support/README.md",
