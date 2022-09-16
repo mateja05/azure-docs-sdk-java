@@ -8,7 +8,7 @@ ms.topic: reference
 ms.devlang: java
 ms.service: textanalytics
 ---
-# Azure Text Analytics client library for Java - version 5.3.0-alpha.20220914.1 
+# Azure Text Analytics client library for Java - version 5.3.0-alpha.20220915.1 
 
 The Azure Cognitive Service for Language is a cloud-based service that provides Natural Language Processing (NLP) 
 features for understanding and analyzing text, and includes the following main features:
