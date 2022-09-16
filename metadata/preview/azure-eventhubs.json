@@ -1,7 +1,7 @@
 {
   "Name": "azure-eventhubs",
-  "Version": "3.4.0-alpha.20220914.1",
-  "DevVersion": "3.4.0-alpha.20220914.1",
+  "Version": "3.4.0-alpha.20220915.1",
+  "DevVersion": "3.4.0-alpha.20220915.1",
   "DirectoryPath": "sdk/eventhubs/microsoft-azure-eventhubs",
   "ServiceDirectory": "eventhubs",
   "ReadMePath": "sdk/eventhubs/microsoft-azure-eventhubs/README.md",
