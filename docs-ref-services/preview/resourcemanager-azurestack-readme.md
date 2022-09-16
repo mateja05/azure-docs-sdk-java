@@ -8,7 +8,7 @@ ms.topic: reference
 ms.devlang: java
 ms.service: azure-resource-manager
 ---
-# Azure Resource Manager AzureStack client library for Java - version 1.0.0-alpha.20220915.1 
+# Azure Resource Manager AzureStack client library for Java - version 1.0.0-alpha.20220916.1 
 
 
 Azure Resource Manager AzureStack client library for Java.
