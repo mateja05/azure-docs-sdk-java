@@ -1,7 +1,7 @@
 {
   "Name": "azure-resourcemanager-confluent",
-  "Version": "1.0.0-alpha.20220915.1",
-  "DevVersion": "1.0.0-alpha.20220915.1",
+  "Version": "1.0.0-alpha.20220916.1",
+  "DevVersion": "1.0.0-alpha.20220916.1",
   "DirectoryPath": "sdk/confluent/azure-resourcemanager-confluent",
   "ServiceDirectory": "confluent",
   "ReadMePath": "sdk/confluent/azure-resourcemanager-confluent/README.md",
