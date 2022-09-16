@@ -8,7 +8,7 @@ ms.topic: reference
 ms.devlang: java
 ms.service: remoterendering
 ---
-# Azure Remote Rendering client library for Java - version 1.2.0-alpha.20220915.1 
+# Azure Remote Rendering client library for Java - version 1.2.0-alpha.20220916.1 
 
 
 Azure Remote Rendering (ARR) is a service that enables you to render high-quality, interactive 3D content in the cloud and stream it in real time to devices, such as the HoloLens 2.
