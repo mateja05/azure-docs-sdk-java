@@ -1,7 +1,7 @@
 {
   "Name": "azure-ai-formrecognizer",
-  "Version": "4.1.0-alpha.20220914.1",
-  "DevVersion": "4.1.0-alpha.20220914.1",
+  "Version": "4.1.0-alpha.20220915.1",
+  "DevVersion": "4.1.0-alpha.20220915.1",
   "DirectoryPath": "sdk/formrecognizer/azure-ai-formrecognizer",
   "ServiceDirectory": "formrecognizer",
   "ReadMePath": "sdk/formrecognizer/azure-ai-formrecognizer/README.md",

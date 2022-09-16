@@ -8,7 +8,7 @@ ms.topic: reference
 ms.devlang: java
 ms.service: formrecognizer
 ---
-# Azure Form Recognizer client library for Java - version 4.1.0-alpha.20220914.1 
+# Azure Form Recognizer client library for Java - version 4.1.0-alpha.20220915.1 
 
 Azure Form Recognizer is a cloud service that uses machine learning to analyze text and structured data from your documents.
 It includes the following main features:
