@@ -1,0 +1,14 @@
+{
+  "Name": "azure-resourcemanager-containerregistry",
+  "Version": "2.19.0-alpha.20220922.6",
+  "DevVersion": "2.19.0-alpha.20220922.6",
+  "DirectoryPath": "sdk/resourcemanager/azure-resourcemanager-containerregistry",
+  "ServiceDirectory": "resourcemanager",
+  "ReadMePath": "sdk/resourcemanager/azure-resourcemanager-containerregistry/README.md",
+  "ChangeLogPath": "sdk/resourcemanager/azure-resourcemanager-containerregistry/CHANGELOG.md",
+  "Group": "com.azure.resourcemanager",
+  "SdkType": "mgmt",
+  "IsNewSdk": true,
+  "ArtifactName": "azure-resourcemanager-containerregistry",
+  "ReleaseStatus": "2022-09-23"
+}
