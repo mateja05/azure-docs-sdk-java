@@ -1,7 +1,7 @@
 {
   "Name": "azure-sdk-archetype",
-  "Version": "1.2.0-alpha.20220926.1",
-  "DevVersion": "1.2.0-alpha.20220926.1",
+  "Version": "1.2.0-alpha.20220927.1",
+  "DevVersion": "1.2.0-alpha.20220927.1",
   "DirectoryPath": "sdk/tools/azure-sdk-archetype",
   "ServiceDirectory": "tools",
   "ReadMePath": "sdk/tools/azure-sdk-archetype/README.md",
