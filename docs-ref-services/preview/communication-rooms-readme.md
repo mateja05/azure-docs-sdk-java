@@ -3,12 +3,12 @@ title: Azure Communications Rooms Service client library for Java
 keywords: Azure, java, SDK, API, azure-communication-rooms, communication
 author: JianpingChen
 ms.author: jiach
-ms.date: 08/12/2022
+ms.date: 09/27/2022
 ms.topic: reference
 ms.devlang: java
 ms.service: communication
 ---
-# Azure Communications Rooms Service client library for Java - version 1.0.0-beta.2 
+# Azure Communications Rooms Service client library for Java - version 1.0.0-alpha.20220927.1 
 
 
 Azure Communication Rooms is used to operate on rooms.
