@@ -1,0 +1,3 @@
+com.microsoft.azure.cognitiveservices.search.newssearch
+com.microsoft.azure.cognitiveservices.search.newssearch.implementation
+com.microsoft.azure.cognitiveservices.search.newssearch.models
