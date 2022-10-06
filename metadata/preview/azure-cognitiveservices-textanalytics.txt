@@ -1,0 +1,3 @@
+com.microsoft.azure.cognitiveservices.language.textanalytics
+com.microsoft.azure.cognitiveservices.language.textanalytics.implementation
+com.microsoft.azure.cognitiveservices.language.textanalytics.models
