@@ -1,14 +1,14 @@
 {
-  "Name": "azure-cognitiveservices-faceapi",
+  "Name": "azure-cognitiveservices-autosuggest",
   "Version": "1.1.0-alpha.20221005.1",
   "DevVersion": "1.1.0-alpha.20221005.1",
-  "DirectoryPath": "sdk/cognitiveservices/ms-azure-cs-faceapi",
+  "DirectoryPath": "sdk/cognitiveservices/ms-azure-cs-autosuggest",
   "ServiceDirectory": "cognitiveservices",
   "ReadMePath": "",
   "ChangeLogPath": "",
   "Group": "com.microsoft.azure.cognitiveservices",
   "SdkType": "client",
   "IsNewSdk": false,
-  "ArtifactName": "azure-cognitiveservices-faceapi",
+  "ArtifactName": "azure-cognitiveservices-autosuggest",
   "ReleaseStatus": null
 }
